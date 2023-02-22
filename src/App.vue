@@ -8,9 +8,9 @@ import StackSwiper from "./components/StackSwiper/index.vue";
   <div>
     <h1>swiper 堆叠</h1>
     <div class="border">
-      <StackSwiper>
+      <StackSwiper class="h-100">
         <StackSwiperItem
-          v-for="(item, index) in 4"
+          v-for="(item, index) in 20"
           :key="index"
           class="w-50 h-50 bg-red-400 text-right border"
         >
